@@ -6,6 +6,7 @@ on:
       - master
     paths:
       - "_data/cv.yml"
+      - "bin/cv_to_rendercv.py"
       - "assets/rendercv/design.yaml"
       - "assets/rendercv/locale.yaml"
       - "assets/rendercv/settings.yaml"
@@ -42,7 +43,11 @@ jobs:
             echo "Missing RenderCV config file!"
             exit 1
           fi
-          rendercv render $cv_file --settings $settings
+          # _data/cv.yml uses the web CV page's field names; convert it into a file RenderCV accepts
+          rendercv_file=_data/cv.rendercv.yml
+          python bin/cv_to_rendercv.py $cv_file $rendercv_file
+          rendercv render $rendercv_file --settings $settings
+          rm $rendercv_file
           rm assets/rendercv/rendercv_output/*.typ
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4

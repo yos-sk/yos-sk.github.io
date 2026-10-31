@@ -1,189 +1,249 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Yoshitaka Sakamoto
+  label: Staff scientist, Cancer Genomics & Bioinformatics
+  location: Tokyo, Japan
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Computational biologist working on long-read sequencing and haplotype-resolved analysis of cancer genomes.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: yos-sk
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: The University of Tokyo
+        area: Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences
+        studyType: Ph.D. (Computational Biology)
+        start_date: 2020
+        end_date: 2023
+      - institution: The University of Tokyo
+        area: Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences
+        studyType: MSc (Computational Biology)
+        start_date: 2018
+        end_date: 2020
+      - institution: The University of Tokyo
+        area: Department of Bioinformatics and Systems Biology, Faculty of Science
+        studyType: BSc (Bioinformatics)
+        start_date: 2014
+        end_date: 2018
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: National Cancer Center Research Institute
+        position: Staff scientist
+        start_date: 2023
+        end_date: present
+      - company: Japan Society for the Promotion of Science (JSPS)
+        position: JSPS Research Fellow (DC2)
+        start_date: 2021
+        end_date: 2023
         highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - "Host institution: The University of Tokyo"
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "Rare k-mers reveal centromere haplogroups underlying human diversity and cancer translocations"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - "Y. Shiraishi"
+          - "Y. Ochi"
+          - "M. Sugawa"
+          - "**Y. Sakamoto**"
+          - "et al."
+        publisher: "Cell"
+        releaseDate: "2026-10"
+        url: https://doi.org/10.1016/j.cell.2026.08.053
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "Personalized reference genome-based pipeline reveals comprehensive haplotype-resolved views of cancer genomes"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - "**Y. Sakamoto**"
+          - "Y. Ochi"
+          - "Y. Kogure"
+          - "et al."
+        publisher: "bioRxiv"
+        releaseDate: "2026-05"
+        url: https://doi.org/10.64898/2026.05.28.728591
+        summary: First author
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: "mm2-ivh: simple and precise overlap detection in alpha satellite HORs with interval hashing"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - "H. Suzuki"
+          - "M. Sugawa"
+          - "**Y. Sakamoto**"
+          - "et al."
+        publisher: "Bioinformatics"
+        releaseDate: "2026"
+        url: https://doi.org/10.1093/bioinformatics/btaf648
+
+      - title: "Targeted long-read methylation analysis using hybridization capture suitable for clinical specimens"
+        authors:
+          - "K. Kunigo"
+          - "S. Nagasawa"
+          - "K. Kajiya"
+          - "**Y. Sakamoto**"
+          - "et al."
+        publisher: "Cell Reports Methods"
+        releaseDate: "2025"
+        url: https://doi.org/10.1016/j.crmeth.2025.101215
+
+      - title: "Whole-genome sequencing reveals the molecular implications of the stepwise progression of lung adenocarcinoma"
+        authors:
+          - "Y. Haga"
+          - "**Y. Sakamoto**"
+          - "K. Kajiya"
+          - "et al."
+        publisher: "Nature Communications"
+        releaseDate: "2023"
+        url: https://doi.org/10.1038/s41467-023-43732-y
+        summary: Equal contribution (co-first author)
+
+      - title: "Long-Read Whole-Genome Sequencing Using a Nanopore Sequencer and Detection of Structural Variants in Cancer Genomes"
+        authors:
+          - "Y. Haga"
+          - "**Y. Sakamoto**"
+          - "M. Arai"
+          - "et al."
+        publisher: "Nanopore Sequencing: Methods and Protocols (Methods in Molecular Biology)"
+        releaseDate: "2023"
+        url: https://doi.org/10.1007/978-1-0716-2996-3_13
+
+      - title: "Phasing analysis of lung cancer genomes using a long read sequencer"
+        authors:
+          - "**Y. Sakamoto**"
+          - "S. Miyake"
+          - "M. Oka"
+          - "et al."
+        publisher: "Nature Communications"
+        releaseDate: "2022"
+        url: https://doi.org/10.1038/s41467-022-31133-6
+        summary: First author
+
+      - title: "Whole-genome Methylation Analysis of APOBEC Enzyme-converted DNA (~5 kb) by Nanopore Sequencing"
+        authors:
+          - "S. Zaha"
+          - "**Y. Sakamoto**"
+          - "S. Nagasawa"
+          - "et al."
+        publisher: "Bio-protocol"
+        releaseDate: "2022"
+        url: https://doi.org/10.21769/BioProtoc.4345
+
+      - title: "Long-read whole-genome methylation patterning using enzymatic base conversion and nanopore sequencing"
+        authors:
+          - "**Y. Sakamoto**"
+          - "S. Zaha"
+          - "S. Nagasawa"
+          - "et al."
+        publisher: "Nucleic Acids Research"
+        releaseDate: "2021"
+        url: https://doi.org/10.1093/nar/gkab397
+        summary: First author
+
+      - title: "Application of long-read sequencing to the detection of structural variants in human cancer genomes"
+        authors:
+          - "**Y. Sakamoto**"
+          - "S. Zaha"
+          - "Y. Suzuki"
+          - "et al."
+        publisher: "Computational and Structural Biotechnology Journal"
+        releaseDate: "2021"
+        url: https://doi.org/10.1016/j.csbj.2021.07.030
+        summary: First author
+
+      - title: "Long-read sequencing for non-small-cell lung cancer genomes"
+        authors:
+          - "**Y. Sakamoto**"
+          - "L. Xu"
+          - "M. Seki"
+          - "et al."
+        publisher: "Genome Research"
+        releaseDate: "2020"
+        url: https://doi.org/10.1101/gr.261941.120
+        summary: First author
+
+      - title: "Single-cell sequencing techniques from individual to multiomics analyses"
+        authors:
+          - "Y. Kashima"
+          - "**Y. Sakamoto**"
+          - "K. Kaneko"
+          - "et al."
+        publisher: "Experimental & Molecular Medicine"
+        releaseDate: "2020"
+        url: https://doi.org/10.1038/s12276-020-00499-2
+
+      - title: "A new era of long-read sequencing for cancer genomics"
+        authors:
+          - "**Y. Sakamoto**"
+          - "S. Sereewattanawoot"
+          - "A. Suzuki"
+        publisher: "Journal of Human Genetics"
+        releaseDate: "2020"
+        url: https://doi.org/10.1038/s10038-019-0658-5
+        summary: First author
+
+      - title: "MoMI-G: modular multi-scale integrated genome graph browser"
+        authors:
+          - "T. T. Yokoyama"
+          - "**Y. Sakamoto**"
+          - "M. Seki"
+          - "et al."
+        publisher: "BMC Bioinformatics"
+        releaseDate: "2019"
+        url: https://doi.org/10.1186/s12859-019-3145-2
+
+      - title: "Evaluation and application of RNA-Seq by MinION"
+        authors:
+          - "M. Seki"
+          - "E. Katsumata"
+          - "A. Suzuki"
+          - "S. Sereewattanawoot"
+          - "**Y. Sakamoto**"
+          - "et al."
+        publisher: "DNA Research"
+        releaseDate: "2019"
+        url: https://doi.org/10.1093/dnares/dsy038
+
+      - title: "Long read sequencing reveals a novel class of structural aberrations in cancers: identification and characterization of cancerous local amplifications"
+        authors:
+          - "**Y. Sakamoto**"
+          - "L. Xu"
+          - "M. Seki"
+          - "et al."
+        publisher: "bioRxiv"
+        releaseDate: "2019"
+        url: https://doi.org/10.1101/620047
+        summary: First author
+
+      - title: "Identification of potential regulatory mutations using multi-omics analysis and haplotyping of lung adenocarcinoma cell lines"
+        authors:
+          - "S. Sereewattanawoot"
+          - "A. Suzuki"
+          - "M. Seki"
+          - "**Y. Sakamoto**"
+          - "et al."
+        publisher: "Scientific Reports"
+        releaseDate: "2018"
+        url: https://doi.org/10.1038/s41598-018-23342-1
+
+    Oral Presentations:
+      - bullet: "**Telomere-to-telomere human genome construction and its application to cancer genome analysis** (invited educational lecture). The 85th Annual Meeting of the Japanese Cancer Association, Sep 2026."
+      - bullet: "**Personalized reference genome-based cancer genome analysis applied to diverse cell lines**. The 85th Annual Meeting of the Japanese Cancer Association, Sep 2026."
+      - bullet: "**Nearly complete personalized reference genome-based pipeline reveals comprehensive haplotype-resolved views of cancer genomes**. T2T-F2F, Sep 2026."
+      - bullet: "**Cancer genome analysis based on personalized reference genome using long-read sequencing technologies** (invited). The 70th Annual Meeting of the Japan Society of Human Genetics, Dec 2025."
+      - bullet: "**Reconstruction of cancer genome structure by personalized reference genome-based cancer genome analysis pipeline**. The 84th Annual Meeting of the Japanese Cancer Association, Sep 2025."
+      - bullet: "**Personalized reference genome-based pipeline for cancer genome analyses to identify somatic mutations comprehensively**. 17th RECOMB Satellite Workshop on Computational Cancer Biology (RECOMB-CCB 2025), Apr 2025."
+      - bullet: "**Development of a method for detecting DNA adducts using nanopore sequencing** (invited). 2024 Public Symposium of the Japanese Environmental Mutagen and Genome Society, Jun 2024."
+      - bullet: "**Personalized matched control reference-based approach can detect structural variants accurately in cancer genomes**. The 82nd Annual Meeting of the Japanese Cancer Association, Sep 2023."
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Bioinformatics
+        icon: fa-solid fa-dna
+        keywords: "Long-read sequencing (ONT / PacBio), structural variant detection, haplotype phasing, de novo assembly, DNA methylation analysis"
+
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords: "Python, Shell, Rust, R, workflow development (Snakemake)"
 
     Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Japanese
+        summary: "Native"
 
       - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        summary: "Business"

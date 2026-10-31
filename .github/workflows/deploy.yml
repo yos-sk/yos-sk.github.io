@@ -55,6 +55,10 @@ on:
       - "!docs/FAQ.md"
       - "!docs/INSTALL.md"
       - "!README.md"
+  # The CV PDF is committed by "Render a CV" with GITHUB_TOKEN, which does not trigger a push event
+  workflow_run:
+    workflows: ["Render a CV"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -62,6 +66,7 @@ permissions:
 
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
