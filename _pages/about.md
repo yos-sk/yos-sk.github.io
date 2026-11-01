@@ -44,7 +44,7 @@ genomic alterations in cancer, including those hidden in regions that are diffic
 
 <!-- TODO: e.g. "I received my Ph.D. from ... under the supervision of ..." -->
 
-More details are on the [research](/research/) and [papers](/publications/) pages, and the code is on [GitHub](https://github.com/yos-sk).
+More details are on the [research](/research/) and [publications](/publications/) pages, and the code is on [GitHub](https://github.com/yos-sk).
 
 <h2>
   <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected papers</a>
